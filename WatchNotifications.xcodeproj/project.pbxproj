@@ -25,6 +25,7 @@
 		0731EF051A2FEB0A0055F8AC /* worldclock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0731EF031A2FEB0A0055F8AC /* worldclock.png */; };
 		0731EF061A2FEB0A0055F8AC /* worldclock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0731EF031A2FEB0A0055F8AC /* worldclock.png */; };
 		07645B411A2FF892004913CF /* Timezones.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07645B401A2FF892004913CF /* Timezones.plist */; };
+		07C14D351A309A3600633BD2 /* PushNotificationPayload.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C14D341A309A3600633BD2 /* PushNotificationPayload.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +80,6 @@
 		0731EEDA1A2FC9AA0055F8AC /* WatchNotifications WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchNotifications WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0731EEDC1A2FC9AA0055F8AC /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		0731EEE01A2FC9AA0055F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0731EEE11A2FC9AA0055F8AC /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
 		0731EEE21A2FC9AA0055F8AC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		0731EEE41A2FC9AA0055F8AC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		0731EEE61A2FC9AA0055F8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -89,6 +89,7 @@
 		0731EEF31A2FC9AA0055F8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0731EF031A2FEB0A0055F8AC /* worldclock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = worldclock.png; path = "../WatchNotifications WatchKit Extension/worldclock.png"; sourceTree = "<group>"; };
 		07645B401A2FF892004913CF /* Timezones.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Timezones.plist; sourceTree = "<group>"; };
+		07C14D341A309A3600633BD2 /* PushNotificationPayload.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PushNotificationPayload.json; path = "../WatchNotifications Watch App/PushNotificationPayload.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,8 +202,8 @@
 		0731EEDF1A2FC9AA0055F8AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07C14D341A309A3600633BD2 /* PushNotificationPayload.json */,
 				0731EEE01A2FC9AA0055F8AC /* Info.plist */,
-				0731EEE11A2FC9AA0055F8AC /* PushNotificationPayload.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -379,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0731EEF21A2FC9AA0055F8AC /* Interface.storyboard in Resources */,
+				07C14D351A309A3600633BD2 /* PushNotificationPayload.json in Resources */,
 				0731EEF41A2FC9AA0055F8AC /* Images.xcassets in Resources */,
 				0731EF061A2FEB0A0055F8AC /* worldclock.png in Resources */,
 			);
