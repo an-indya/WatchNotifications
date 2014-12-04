@@ -2,7 +2,7 @@
     "aps": {
         "alert": "It's new year already in Japan!",
         "title": "Happy New Year!",
-        "category": "myCategory"
+        "category": "NewYear"
     },
     
     "WatchKit Simulator Actions": [

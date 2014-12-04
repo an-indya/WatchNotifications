@@ -26,7 +26,9 @@
                     <items>
                         <label width="135" height="59" alignment="left" text="Alert Label" numberOfLines="2" id="IdU-wH-bcW"/>
                     </items>
-                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <notificationCategory key="notificationCategory" identifier="NewYear" id="JfB-70-Muf">
+                        <color key="sashColor" red="1" green="0.66540418000000001" blue="0.1315213553" alpha="1" colorSpace="calibratedRGB"/>
+                    </notificationCategory>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
                         <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
